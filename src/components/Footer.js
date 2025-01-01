@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <img src={require('../assets/images/Logo.png')} alt="Little Lemon logo" />
+          <img src={require('../assets/images/logo.png')} alt="Little Lemon logo" />
         </div>
         <div className="footer-section">
           <h4>Navigation</h4>
@@ -21,7 +21,7 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h4>Contact</h4>
-          <p>Address: Chicago, IL</p>
+          <p>Address: 123 Main St, Chicago, IL 60601</p>
           <p>Phone: (123) 456-7890</p>
           <p>Email: info@littlelemon.com</p>
         </div>

@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
+    <header>
     <nav>
       <div className="nav-inner">
         <div className="nav-brand">
           <Link to="/">
-            <img src={require('../assets/images/Logo.png')} alt="Little Lemon logo" />
+            <img src={require('../assets/images/logo.png')} alt="Little Lemon logo" />
           </Link>
         </div>
         <ul className="nav-menu">
@@ -20,6 +21,7 @@ function Nav() {
         </ul>
       </div>
     </nav>
+    </header>
   );
 }
 
