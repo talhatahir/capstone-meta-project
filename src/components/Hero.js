@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -10,6 +11,9 @@ function Hero() {
           <p>
             We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
           </p>
+          <Link to="/reservations" className="reserve-button">
+            Reserve a Table
+          </Link>
         </div>
         <div className="hero-image">
           <img src={require("../assets/images/lemon.webp")} alt="Little Lemon Restaurant" />

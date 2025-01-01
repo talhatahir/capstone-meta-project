@@ -11,7 +11,7 @@ import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservations";
 import OrderOnline from "./pages/OrderOnline";
 import Login from "./pages/Login";
-
+import ConfirmedBooking from "./pages/ConfirmedBooking";
 function App() {
   return (
     <Router>
@@ -38,6 +38,7 @@ function App() {
             <Route path="/reservations" element={<Reservations />} />
             <Route path="/order-online" element={<OrderOnline />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/confirmed" element={<ConfirmedBooking />} />
           </Routes>
         </div>
         <Footer />
